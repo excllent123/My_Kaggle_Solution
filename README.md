@@ -6,8 +6,8 @@ Human Protein Atlas Image Classification
 
 1 HPA data
 
-2 lr with warm start
+2 lr with warm start   done
 
-3 带权重采样
+3 带权重采样   done
 
 
