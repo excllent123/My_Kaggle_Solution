@@ -66,6 +66,22 @@ parser.add_argument('--gpu', default=0, type=int,
 
 best_acc1 = 0
 
+def oversample_multilabel(df):
+    df['temp'] = [[int(i) for i in s.split()] for s in df['Target']]  
+    multi = [15,15,15,8,9,10,8,9,10,8,9,10,17,20,24,26,15,27,15,20,24,17,8,15,27,27,27]
+    #multi = [1,1,1,1,1,1,1,1,4,4,4,1,1,1,1,4,1,1,1,1,2,1,1,1,1,1,1,4]
+    res_df = pd.DataFrame()
+    for i in range(len(multi)):
+        mask = df['temp'].apply(lambda x: i in x)
+        temp_df = df[mask]
+        pre = len(res_df)
+        for j in range(multi[i]):
+            res_df = res_df.append(temp_df, ignore_index=True)
+        print('-> Oversample {} from {} samples to {} samples'.format(i, len(temp_df) ,len(res_df)-pre))
+    del res_df['temp']
+    res_df.index = range(len(res_df))
+    return res_df
+
 
 def main():
     global args, best_acc1
