@@ -82,6 +82,7 @@ def oversample_multilabel(df):
     res_df.index = range(len(res_df))
     return res_df
 
+train_df = oversample_multilabel(train_df)
 
 def main():
     global args, best_acc1
