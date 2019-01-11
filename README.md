@@ -1,6 +1,6 @@
 # My_Kaggle_Solution
 
-Human Protein Atlas Image Classification
+**Human Protein Atlas Image Classification**
 
 #Todolist:
 
@@ -12,5 +12,11 @@ Human Protein Atlas Image Classification
 
 4 Extera data  done
 
-Final, My rank is  228/2236,with more traning,I think I can get better position
+**Final, My rank is  228/2236
+I think I can get better position with more traning,**
+
+
+**Humpback Whale Identification**
+
+I will participate this competition next two month，good luck for me! 
 
