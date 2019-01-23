@@ -15,6 +15,7 @@
 **Final, My rank is  228/2236
 I think I can get better position with more traning**
 
+**Final, My private rank is  213/2236   
 
 **Humpback Whale Identification**
 
