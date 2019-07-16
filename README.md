@@ -22,3 +22,10 @@ I think I can get better position with more traning**
 I will participate this competition next two month，good luck for me! 
 
 **Final, My rank is  110/2131
+
+**SIIM-ACR Pneumothorax Segmentation**
+
+**APTOS 2019 Blindness Detection **
+
+I will participate two competition next two month，good luck for me! 
+
